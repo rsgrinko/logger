@@ -1,0 +1,22 @@
+{
+    "name": "rsgrinko/logger",
+    "description": "Library for logging to file",
+	"version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rsgrinko\\Logger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rsgrinko",
+            "email": "rsgrinko@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=7.4.0"
+	}
+}
